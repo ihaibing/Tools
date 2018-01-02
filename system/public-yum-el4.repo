@@ -1,0 +1,63 @@
+[el4_latest]
+name=Enterprise Linux $releasever Latest ($basearch)
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/latest/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[el4_u6_base]
+name=Enterprise Linux $releasever Update 6 installation media copy ($basearch) 
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/6/base/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u7_base]
+name=Enterprise Linux $releasever Update 7 installation media copy ($basearch) 
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/7/base/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u8_base]
+name=Enterprise Linux $releasever Update 8 installation media copy ($basearch) 
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/8/base/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u9_base]
+name=Enterprise Linux $releasever Update 9 installation media copy ($basearch) 
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/9/base/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u6_patch]
+name=Enterprise Linux $releasever Update 6 latest packages ($basearch)
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/6/patch/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u7_patch]
+name=Enterprise Linux $releasever Update 7 latest packages ($basearch)
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/7/patch/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_u8_patch]
+name=Enterprise Linux $releasever Update 8 latest packages ($basearch)
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/8/patch/$basearch/
+gpgkey=file:///usr/share/rhn/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[el4_addons]
+name=Enterprise Linux $releasever Add ons ($basearch)
+baseurl=http://yum.oracle.com/repo/EnterpriseLinux/EL4/addons/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
